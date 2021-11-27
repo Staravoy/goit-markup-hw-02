@@ -1,3 +1,6 @@
+:root {
+  --button-color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -59,7 +62,7 @@ body {
 }
 .title-button {
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--button-color);
   cursor: pointer;
 }
 .filter-button {
@@ -79,11 +82,11 @@ body {
   line-height: 30px;
 }
 .filter-button:hover {
-  background-color: #2196f3;
+  background-color: var(--button-color);
 }
 .site-nav .link:hover {
-  color: #2196f3;
+  color: var(--button-color);
 }
 .nav-adress .adress:hover {
-  color: #2196f3;
+  color: var(--button-color);
 }
