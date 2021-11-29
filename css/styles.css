@@ -1,88 +1,177 @@
 :root {
   --button-color: #2196f3;
 }
+:root {
+  --text-color: #212121;
+}
+:root {
+  --main-text: #757575;
+}
+:root {
+  --background-text: #fff;
+}
+:root {
+  --button-background: #f5f4fa;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--text-color);
 }
 .site-nav {
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .title {
   text-align: center;
-  background-color: #2f303a;
+  background-color: #212121;
+}
+.location {
+  font-family: "Roboto";
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 146%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  text-decoration: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  text-decoration: none;
 }
 .h2-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
 }
 .pers .employee .name {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   font-weight: 500;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .pers .employee .work {
   font-size: 16px;
-  line-height: 19px;
-  color: #757575;
+  line-height: 1.18;
+  color: var(--main-text);
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .site-nav .link {
-  color: #212121;
+  color: var(--text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  line-height: 1.14;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  text-decoration: none;
 }
 .nav-adress .adress {
-  color: #757575;
+  color: var(--main-text);
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
+  text-decoration: none;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 2%;
 }
 .title .main-title {
-  color: #fff;
+  color: var(--background-text);
   text-align: center;
+  font-style: Black;
+  font-size: 44px;
+  line-height: 1.5;
+  line-height: 116%;
+  vertical-align: Top;
+  letter-spacing: 6%;
 }
 
 .section .section-title {
-  color: #212121;
+  color: var(--text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: bold;
+  font-style: Bold;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 
 .section .title-description {
-  color: #757575;
+  color: var(--main-text);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  line-height: 146%;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .title-button {
-  color: #fff;
+  color: var(--background-text);
   background-color: var(--button-color);
   cursor: pointer;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
 }
 .filter-button {
-  background-color: #f5f4fa;
+  background-color: var(--button-background);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  border: none;
+  border-radius: 4px;
+  width: 128px;
+  height: 38px;
 }
-.catalog .catalog-img .catalog-name {
+.filter-button .button-text {
+  font-family: "Roboto";
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1.62;
+  line-height: 139%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  text-align: center;
+  align: center;
+}
+.cfilter .catalog-img .catalog-name {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  line-height: 171%;
+  vertical-align: Top;
+  letter-spacing: 6%;
 }
-.catalog .catalog-img .catalog-specifics {
+.filter .catalog-img .catalog-specifics {
   font-size: 16px;
+  line-height: 1.87;
+  font-family: "Roboto";
+  font-style: "Regular";
   line-height: 30px;
+  line-height: 160%;
+  vertical-align: Top;
+  letter-spacing: 3%;
 }
 .filter-button:hover {
   background-color: var(--button-color);
+  color: var(--background-color);
 }
 .site-nav .link:hover {
   color: var(--button-color);
