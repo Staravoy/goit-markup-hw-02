@@ -20,13 +20,22 @@ body {
 ul {
   list-style: none;
 }
+footer {
+  background-color: var(--text-color);
+}
+.color-footer {
+  color: var(--button-color);
+}
+.color-title {
+  color: var(--button-color);
+}
 .site-nav {
   font-size: 14px;
   line-height: 1.14;
 }
 .title {
   text-align: center;
-  background-color: #212121;
+  background-color: var(--text-color);
 }
 .location {
   font-family: "Roboto";
@@ -37,6 +46,7 @@ ul {
   vertical-align: Top;
   letter-spacing: 3%;
   text-decoration: none;
+  color: var(--background-text);
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -47,9 +57,33 @@ ul {
   vertical-align: Top;
   letter-spacing: 3%;
   text-decoration: none;
+  color: var(--text-color);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  text-decoration: none;
+  color: var(--background-text);
+}
+.button-text {
+  color: var(--background-text);
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 1.87;
+  line-height: 160%;
+  vertical-align: Center;
+  letter-spacing: 6%;
 }
 .h2-title {
-  font-weight: bold;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 3%;
   font-size: 36px;
   line-height: 1.16;
 }
@@ -83,7 +117,6 @@ ul {
 }
 .nav-adress .adress {
   color: var(--main-text);
-  font-family: "Roboto", sans-serif;
   line-height: 1.18;
   text-decoration: none;
   font-style: Medium;
@@ -93,6 +126,7 @@ ul {
   vertical-align: Top;
   letter-spacing: 2%;
   list-style: none;
+  text-decoration: none;
 }
 .title .main-title {
   color: var(--background-text);
@@ -154,6 +188,7 @@ ul {
   vertical-align: Top;
   letter-spacing: 3%;
   text-align: center;
+  color: var(--text-color);
 }
 .filter .catalog-img .catalog-name {
   font-weight: bold;
@@ -172,6 +207,9 @@ ul {
   line-height: 160%;
   vertical-align: Top;
   letter-spacing: 3%;
+}
+.footer-adress {
+  color: var(--background-text);
 }
 .filter-button:hover {
   background-color: var(--button-color);
