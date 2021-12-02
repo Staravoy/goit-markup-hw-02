@@ -1,16 +1,12 @@
 :root {
   --button-color: #2196f3;
-}
-:root {
+
   --text-color: #212121;
-}
-:root {
+
   --main-text: #757575;
-}
-:root {
+
   --background-text: #fff;
-}
-:root {
+
   --button-background: #f5f4fa;
 }
 body {
@@ -29,71 +25,53 @@ footer {
 .color-title {
   color: var(--button-color);
 }
-.site-nav {
-  font-size: 14px;
-  line-height: 1.14;
-}
 .title {
   text-align: center;
   background-color: var(--text-color);
 }
 .location {
-  font-family: "Roboto";
-  font-style: "Regular";
   font-size: 14px;
-  line-height: 24px;
-  line-height: 146%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--background-text);
 }
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--text-color);
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--background-text);
 }
 .button-text {
   color: var(--background-text);
-  font-style: Bold;
+  font-style: 700;
   font-size: 16px;
   line-height: 1.87;
-  line-height: 160%;
-  vertical-align: Center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .h2-title {
-  font-style: Bold;
+  font-style: 700;
   font-size: 36px;
-  line-height: 100%;
-  letter-spacing: 3%;
-  font-size: 36px;
+  letter-spacing: 0.03em;
   line-height: 1.16;
 }
 .pers .employee .name {
   font-size: 16px;
   line-height: 1.18;
   font-weight: 500;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .pers .employee .work {
@@ -101,8 +79,7 @@ footer {
   line-height: 1.18;
   color: var(--main-text);
   line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 .pers .employee {
@@ -112,24 +89,17 @@ footer {
   color: var(--text-color);
   font-weight: 500;
   line-height: 1.14;
-  font-style: Medium;
   font-size: 14px;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
 }
 .nav-adress .adress {
   color: var(--main-text);
   line-height: 1.18;
-  text-decoration: none;
   font-style: Medium;
   font-size: 14px;
-  line-height: 1.14;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   list-style: none;
   text-decoration: none;
 }
@@ -139,30 +109,22 @@ footer {
   font-style: Black;
   font-size: 44px;
   line-height: 1.5;
-  line-height: 116%;
-  vertical-align: Top;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .section .section-title {
   color: var(--text-color);
-  font-family: "Roboto", sans-serif;
-  font-style: Bold;
+  font-style: 700;
   font-size: 14px;
   line-height: 1.14;
-  line-height: 100%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .section .title-description {
   color: var(--main-text);
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.71;
-  line-height: 146%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .title-button {
   color: var(--background-text);
@@ -184,14 +146,14 @@ footer {
   border-radius: 4px;
   width: 128px;
   height: 38px;
+  width: 103px;
+  height: 38px;
 }
-.filter-button .button-text {
+.filter-button {
   font-style: Medium;
   font-size: 16px;
   line-height: 1.62;
-  line-height: 139%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--text-color);
 }
@@ -199,22 +161,19 @@ footer {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  line-height: 171%;
-  vertical-align: Top;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .filter .catalog-img .catalog-specifics {
   font-size: 16px;
   line-height: 1.87;
-  font-family: "Roboto";
-  font-style: "Regular";
   line-height: 30px;
-  line-height: 160%;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 .footer-adress {
   color: var(--background-text);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .filter-button:hover {
   background-color: var(--button-color);
@@ -225,4 +184,14 @@ footer {
 }
 .nav-adress .adress:hover {
   color: var(--button-color);
+}
+.nav-adress .adress:focus {
+  color: var(--button-color);
+}
+.site-nav .link:focus {
+  color: var(--button-color);
+}
+.filter-button:focus {
+  background-color: var(--button-color);
+  color: var(--background-color);
 }
